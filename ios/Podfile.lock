@@ -19,6 +19,8 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - NavigationHybrid (0.23.7):
+    - React
   - RCTRequired (0.61.0)
   - RCTTypeSafety (0.61.0):
     - FBLazyVector (= 0.61.0)
@@ -225,6 +227,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - NavigationHybrid (from `../node_modules/react-native-navigation-hybrid`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -264,6 +267,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  NavigationHybrid:
+    :path: "../node_modules/react-native-navigation-hybrid"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -312,6 +317,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: a43dfecd1f9e31d5729a38adafba1790c4c6c950
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  NavigationHybrid: 7526d256cdefb2c5b184b6809bdf1442ee58fe21
   RCTRequired: 1f0d5c0baf372e291f70b6b1275b19142bdce931
   RCTTypeSafety: 3b7329bbb97065c1f6ff7157f8eaf0da60fdc13d
   React: e419a1c0c3afe96300511585756bbea2f9f35e04
